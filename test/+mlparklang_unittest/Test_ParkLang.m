@@ -21,7 +21,11 @@ classdef Test_ParkLang < matlab.unittest.TestCase
  			this.assumeEqual(1,1);
  			this.verifyEqual(1,1);
  			this.assertEqual(1,1);
- 		end
+        end
+        function test_averageTask(this)
+        end
+        function test_averageMLP(this)
+        end
 	end
 
  	methods (TestClassSetup)
